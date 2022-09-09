@@ -1,0 +1,218 @@
+
+html{
+scroll-behavior: smooth;
+}
+.navbar {
+    box-shadow: 2px 2px 5px #008ed6;
+    background: #fff;
+    opacity: 0.9;
+}
+.menu-btn a {
+    padding-left: 25px !important;
+    color: #010101;
+    font-size: 20px;
+}
+
+.menu-btn {
+    width: 240px;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: #010101 !important;
+    padding-left: 26px !important;
+}
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+/* DROPDOWN NAVBAR */
+.dropdown-item {
+    font-size: 20px;
+}
+.navbar-nav .dropdown .dropdown-menu {
+    transition: all 0.5s;
+    visibility:hidden;
+    transform-origin: top center;
+    transform: scaleY(0);
+    display: block;
+    margin-top: 15px;
+    background: #fff;
+}
+.navbar-nav .dropdown:hover .dropdown-menu {
+    transition: all 0.5s;
+    visibility:visible;
+    transform-origin: top center;
+    transform: scaleY(1);
+    display: block;
+    margin-top: 15px;
+    
+}
+.dropdown-item:hover {
+    background: #333;
+    color: #fff;
+}
+
+/* HOME BANNER SECTION */
+#hero-section{
+    position: relative;
+    background: url(../img/Home-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+.primary-overly {
+    position: absolute;
+    background: rgb(0,0,0,0.4);
+    min-height: 600px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.banner-btn-text {
+    padding-top: 250px;
+}
+.hero-btn a {
+    font-size: 25px;
+    background: #fff;
+    color: #7d7d7d;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-weight: 500;
+}
+/* SERVICE SECTION CSS */
+
+.boxes {
+    box-shadow: 4px 4px 20px 0 rgb(0 0 0 / 10%);
+    margin-right: 2%;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+.icon {
+    width: 50px;
+    float: left;
+    font-size: 45px;
+    color: #6278df;
+}
+
+.text {
+    width: 235px;
+    padding-left: 30px;
+}
+/* PRICING SECTION CSS */
+#pricing-section {
+    background: #f6f7fd;
+}
+
+.pricing-title h1 {
+    color: #000000 !important;
+    font-weight: 400;
+}
+.icon-price i {
+    font-size: 35px;
+    color: #6278df;
+    margin-top: 2px;
+}
+/* TEAM MEMBAR SECTION CSS */
+.team-membar {
+    background: #fff;
+    box-shadow: 3px 4px 30px 0 rgb(98 120 223 / 20%);
+}
+.team-membar img {
+    width: 100%;
+}
+.team-membar img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.team-membar h4 {
+    padding-left: 30px;
+}
+
+.team-membar p {
+    padding-left: 30px;
+    font-size: 20px;
+}
+/* SUBCRIBE SECTION CSS */
+#subcribe-section {
+    background: #f6f7fd;
+}
+.blog {
+    background: #fff;
+    box-shadow: 3px 4px 30px 0 rgb(98 120 223 / 20%);
+}
+.img {
+    width: 60%;
+}
+/* TESTOMONIAL CSS */
+#testomonial-section {
+    background: #f6f7fd;
+}
+
+.item {
+    border: 1px solid #D7DCE3;
+    border-radius: 3px;
+    padding: 30px;
+    box-shadow: 3px 4px 30px 0 rgb(98 120 223 / 20%);
+    background: url(https://acmap.travelerwp.com/wp-content/themes/traveler/v2/images/qoute_icon.png) top 30px right 30px no-repeat;
+}
+
+.item .author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.item .author img {
+    margin-right: 20px;
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+}
+.st-testimonial-new .st-testimonial-slider .item .author .author-meta h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.item .author .author-meta .star .fa {
+    color: #FFDC00;
+    font-size: 16px;
+    margin-right: 2px;
+}
+.item p {
+    font-size: 14px;
+    color: #768092;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVE CSS */
+@media(max-width:992px){
+    .menu-btn {
+        display: none;
+    }
+}
+@media(max-width:768px){
+    .banner-btn-text {
+        padding-top: 130px;
+    }
+    #hero-section {
+        min-height: 485px;
+    }
+    .primary-overly {
+      min-height: 485px;
+    }
+}
